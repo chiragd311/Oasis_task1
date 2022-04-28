@@ -1,0 +1,174 @@
+body {
+    background-color: salmon;
+    margin: 0;
+    background-image:url(https://cdn1.dotesports.com/wp-content/uploads/2021/09/13060218/narutoooh-1536x864.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  main {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  nav 
+  {
+      flex: 1;
+      padding-left: 350px;
+      display: inline-block;
+      list-style: none;
+      margin: 0;
+  }
+
+nav ul li a 
+{
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    
+    color: white;
+    display: block;
+}
+
+ul li a:hover
+{
+    background-color: #00ff22;
+    font-size: 20px;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+
+  .btn:hover 
+ {
+    box-shadow: 3px 8px 22px rgba(94,28,68,.15);
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+ }
+
+ #btn1 
+{
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, #00ff22 3%, #69f35d 100%);
+    border-radius: 30px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 12px 20px;
+    margin: auto;
+    text-decoration: none;
+    box-shadow: 1px 4px 12px rgba(94,28,68,.15);
+    text-shadow: 0px 1px 0px #020202;
+}
+
+  p {
+    color: black;
+    font-family: sans-serif;
+    background: salmon;
+    padding: 20px;
+    border-radius: 14px;
+  }
+  
+  h1 {
+    color: red;
+    text-shadow: 3px 2px yellow;
+    background: salmon;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 14px;
+  }
+  
+  .naruto {
+    text-align: center;
+    background-color: red;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+  }
+  
+  .sakura {
+    text-align: center;
+    background-color: orange;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+  }
+  
+  .kakashi {
+    text-align: center;
+    background-color: yellow;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+  }
+
+  .sasuke {
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+  }
+
+  .jiraiya {
+    text-align: center;
+    background-color: green;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+  }
+  
+  h2 {
+    color: purple;
+    text-shadow: 2px 1px yellow;
+    background: salmon;
+    display: inline;
+    padding: 5px;
+    border-radius: 14px;
+  }
+  
+  .tsunade {
+    text-align: center;
+    background-color: purple;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+  }
+  
+  .itachi {
+    text-align: center;
+    background-color: pink;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+  }
+  
+  .title-image {
+    text-align: center;
+    margin-top: 20px;
+  }  
+
+  .gototopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #27ae60;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 25px;
+  }
